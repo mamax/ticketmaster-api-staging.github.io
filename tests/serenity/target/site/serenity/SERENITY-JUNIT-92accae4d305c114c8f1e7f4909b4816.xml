@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Feedback widget" skipped="0" tests="4" time="19.35" timestamp="2017-04-103 05:37:24"><testcase name="(feedback widget) Check that Feedback widget Elements are shown"/><testcase name="(feedback widget) Feedback widget Close button"><failure message="Element should not be visible" type="java.lang.AssertionError">Element should not be visible</failure><system-err>Element should not be visible
+com.tkmdpa.taf.steps.products_and_docs.PD_Tutorials_WidgetsSteps.checkThatFeedbackWidgetIsNotShown(PD_Tutorials_WidgetsSteps.java:126)
+com.tkmdpa.taf.definitions.products_and_docs.PD_Tutorials_WidgetsDefinition.checkThatFeedbackWidgetIsNotShown(PD_Tutorials_WidgetsDefinition.java:56)
+</system-err></testcase><testcase name="(feedback widget) [3.1.1 Feedback widget sanity]"/><testcase name="(feedback widget) Verification of allowed symbols in description"/></testsuite>

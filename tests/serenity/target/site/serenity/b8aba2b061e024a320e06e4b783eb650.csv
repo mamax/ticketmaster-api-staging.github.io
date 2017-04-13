@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Home","(/Home Page/) Verification for all the page links","SUCCESS","2017-04-13T17:10:34.158Z","0.0","70.95"
+"Home","(/Home Page/) Verification for general page elements","SUCCESS","2017-04-13T17:10:08.758Z","0.0","22.64"
+"Home","(/Home Page/) Verification for twitter's list of events","SUCCESS","2017-04-13T17:10:31.463Z","0.0","2.63"
+"Blogs","(/blogs/) Verification for general page's elements","SUCCESS","2017-04-13T17:09:10.921Z","0.0","44.21"
+"Open source","(/blogs/) Verification for general page's elements","SUCCESS","2017-04-13T17:11:45.115Z","0.0","4.64"
+"Events","(/events/) Verification for general page's elements","SUCCESS","2017-04-13T17:09:55.285Z","0.0","13.4"
+"Search","(/search/) Verification for general page's elements","SUCCESS","2017-04-13T17:11:49.759Z","0.0","25.26"
