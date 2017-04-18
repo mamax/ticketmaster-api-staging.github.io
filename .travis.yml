@@ -1,6 +1,6 @@
 language: java
 node_js:
-  - "7.7.4"
+  - "7.9.0"
 
 jdk:
   - oraclejdk8
@@ -30,8 +30,8 @@ script:
   - jekyll serve &
   - sleep 15 # give jekyll some time to start
   - rake travis:test --trace --verbose
-  - nvm install 7.7.4
-  - npm i
+  - nvm install 7.9.0
+  - npm install
   - npm run test-ci
 
 after_success:
