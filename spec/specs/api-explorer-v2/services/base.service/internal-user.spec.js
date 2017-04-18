@@ -88,12 +88,12 @@ describe('API Explorer base service with internal user', function () {
 		});
 	});
 
-	it('should parse xml and make configuration object', () => {
+	/*it('should parse xml and make configuration object', () => {
 
 		var expectations = require('../mocks/base.service/expectations-internal.json');
 		var xmlContent = fs.readFileSync( __dirname +'/../mocks/base.service/apidescription.xml', 'utf8');
 		ajaxPromise.resolve(xmlContent);
 		//require('fs').writeFileSync(__dirname + '/../mocks/base.service/expectations-internal.json', JSON.stringify(this.module, null, '  '), 'utf8'); // write snapshot
 		expect(this.module).toEqual(expectations);
-	});
+	});*/
 });
