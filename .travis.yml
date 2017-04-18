@@ -32,7 +32,7 @@ script:
   - rake travis:test --trace --verbose
   - nvm install 7.7.4
   - npm i
-  - npm run test-ci
+  - npm test
 
 after_success:
   - echo Success
