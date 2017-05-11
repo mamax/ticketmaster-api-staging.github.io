@@ -31,6 +31,7 @@ script:
   - jekyll serve &
   - sleep 15 # give jekyll some time to start
   - rake travis:test --trace --verbose
+  - npm install
   - npm run test
 
 after_success:
