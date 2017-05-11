@@ -1,6 +1,6 @@
 language: java
 node_js:
-  - "7.9.0"
+  - "7.10.0"
 
 jdk:
   - oraclejdk8
@@ -31,8 +31,7 @@ script:
   - jekyll serve &
   - sleep 15 # give jekyll some time to start
   - rake travis:test --trace --verbose
-  - npm install
-  - npm run test-coverage
+  - npm run test
 
 after_success:
   - echo Success
@@ -61,6 +60,7 @@ before_install:
   - gem install html-proofer
   - gem install github-pages
   - npm install -g galenframework-cli
+  - npm install
   - gem install coveralls
   - /usr/bin/Xvfb :99 -ac -screen 0 1600x1366x16 -extension RANDR &
   - wget -O /tmp/firefox-latest.tar.bz2 $FIREFOX_SOURCE_URL
