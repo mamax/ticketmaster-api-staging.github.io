@@ -64,6 +64,7 @@ before_install:
   - /usr/bin/Xvfb :99 -ac -screen 0 1600x1366x16 -extension RANDR &
   - wget -O /tmp/firefox-latest.tar.bz2 $FIREFOX_SOURCE_URL
   - export PATH=$HOME/firefox-latest/firefox:$PATH
+  - nvm install 7
   
 addons:
   - firefox: "51.0"
