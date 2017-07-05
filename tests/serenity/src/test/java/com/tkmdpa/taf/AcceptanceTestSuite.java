@@ -40,11 +40,11 @@ public class AcceptanceTestSuite extends SerenityStories {
     }
 
     private void setChromeDriverLinux32() {
-        ChromeDriverManager.getInstance().arch32().version("2.29").setup();
+        ChromeDriverManager.getInstance().arch32().setup();
     }
 
     private void setChromeDriverLinux64() {
-        ChromeDriverManager.getInstance().arch64().version("2.29").setup();
+        ChromeDriverManager.getInstance().arch64().setup();
     }
 
     private void setChromeDriverWindows() {
